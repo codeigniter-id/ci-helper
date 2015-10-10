@@ -31,6 +31,7 @@ setUri($str)
 Maka akan menghasilkan `lorem-ipsum-dolor-sit-amet`.
 
 ## Install
+
 - Download
     - Bisa download via arsip zip, tarball.
     - Bisa menggunakan git clone.
@@ -42,4 +43,9 @@ Maka akan menghasilkan `lorem-ipsum-dolor-sit-amet`.
 - Baru bisa diguanakan
 
 ## Kontribusi
-- [Bagaimana cara berkontribusi Helper CodeIgniter?](CONTRIBUTING.md)
+
+- [Panduan berkontribusi di Helper CodeIgniter Indonesia](CONTRIBUTING.md)
+
+## Lisensi
+
+- [MIT Lisensi](LICENSE)
