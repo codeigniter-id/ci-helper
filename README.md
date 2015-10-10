@@ -1,7 +1,7 @@
 Helper CodeIgniter Indonesia
 ==================
 
-## List of Helper
+## Daftar Helper
 
 #### domain_helper.php
 Fungsi get_domain :
@@ -29,3 +29,12 @@ beautyURI($str)
 <?php echo beautyURI('Lorem ipsum dolor sit amet.') ?>
 ```
 Maka akan menghasilkan `lorem-ipsum-dolor-sit-amet`.
+
+## Install
+- Download arsip repository ini.
+- Ambil bagian helper yang diinginkan.
+- Kemudian load pada `autload.php` atau kostum setiap pemanggilan controller yang dimaksud.
+- Beru bisa diguanakan
+
+## Kontribusi
+- [Bagaimana cara berkontribusi Helper CodeIgniter?](blob/master/CONTRIBUTING.md)

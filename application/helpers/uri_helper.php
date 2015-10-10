@@ -5,9 +5,9 @@
  * @license		MIT
  */
 
-if ( ! function_exists('beautyURI'))
+if ( ! function_exists('setUri'))
 {
-	function beautyURI($str)
+	function setUri($str)
 	{
 		$character = array('{','}',')','(','|','`','~','!','@','%','$','^','&','*','=','?','+','-','/','\\',',','.','#',':',';','\'','"','[',']');
 		$remove_char_strange = strtolower(str_replace($character, '', $str));

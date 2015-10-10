@@ -1,27 +1,32 @@
 CONTRIBUTING
 ==================
 
-## For Member
+## Bagi Member
 
-- Clone your repository
+- Clone repository ini.
+    ```
+    git clone https://github.com/codeigniter-id/ci-helper
+    ```
+- Lakukan perubahan pada kode.
+- Tambahka file / folder yang dimaksud.
+- Commit perubahaan
+- Kemudian baru di Push
+- Pull Request
+
+## Bagi Non Member
+
+- Fork repository ini
+- Clone repository yang sudah kalian fork tersebut, caranya
     ```
     git clone https://github.com/USERNAME/ci-helper
     ```
-- Commit changing
-- Push
+- Lakukan perubahan pada kode.
+- Tambahka file / folder yang dimaksud.
+- Commit perubahaan
+- Kemudian baru di Push
 - Pull Request
 
-## For Non Member
+## Membuat Isu
 
-- Fork this repository
-- Clone your repository
-    ```
-    git clone https://github.com/USERNAME/ci-helper
-    ```
-- Commit changing
-- Push
-- Pull Request
-
-## Open Issues
-
-- Please open the issue if you find damage to the source code
+- Sialakan buat isu jika kalian menemukan sesuatu yang aneh, kerusakan, kesalah pada kode yang ada pada repositor
+y ini.
