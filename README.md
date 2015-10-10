@@ -18,15 +18,15 @@ get_domain($url)
 Maka akan menghasilkan `github.com`.
 
 #### uri_helper.php
-Fungsi beautyURI :
+Fungsi setUri :
 ``` php
-beautyURI($str)
+setUri($str)
 ```
 - @param string $str
 - @return void
 - Contoh :
 ``` php 
-<?php echo beautyURI('Lorem ipsum dolor sit amet.') ?>
+<?php echo setUri('Lorem ipsum dolor sit amet.') ?>
 ```
 Maka akan menghasilkan `lorem-ipsum-dolor-sit-amet`.
 
