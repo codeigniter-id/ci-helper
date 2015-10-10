@@ -1,15 +1,31 @@
-**********************
-Kumpulan Helper
-**********************
+Helper CodeIgniter Indonesia
+==================
 
-# domain_helper.php
-Fungsi yang tersedia:
-* get_domain($url)
+## List of Helper
 
->Parameters: $url - Full URL.
+#### domain_helper.php
+Fungsi get_domain :
+``` php
+get_domain($url)
+```
+- Parameters full URL: `$url`.
+- Returns: `domain`.
+- Return type: `string`.
+- Contoh :
+``` php 
+<?php echo get_domain('http://github.com') ?>
+```
+Maka akan menghasilkan `github.com`.
 
->Returns: domain.
-
->Return type: string.
-
->Contoh: get_domain("http://github.com") akan menghasilkan *github.com*.
+#### uri_helper.php
+Fungsi beautyURI :
+``` php
+beautyURI($str)
+```
+- @param string $str
+- @return void
+- Contoh :
+``` php 
+<?php echo beautyURI('Lorem ipsum dolor sit amet.') ?>
+```
+Maka akan menghasilkan `lorem-ipsum-dolor-sit-amet`.
