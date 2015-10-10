@@ -28,5 +28,4 @@ CONTRIBUTING
 
 ## Membuat Isu
 
-- Sialakan buat isu jika kalian menemukan sesuatu yang aneh, kerusakan, kesalah pada kode yang ada pada repositor
-y ini.
+- Sialakan buat isu jika kalian menemukan sesuatu yang aneh, kerusakan, kesalah pada kode yang ada pada repository ini.

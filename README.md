@@ -31,10 +31,15 @@ setUri($str)
 Maka akan menghasilkan `lorem-ipsum-dolor-sit-amet`.
 
 ## Install
-- Download arsip repository ini.
+- Download
+    - Bisa download via arsip zip, tarball.
+    - Bisa menggunakan git clone.
+    - Bisa menggunakan bower.
+    - Bisa menggunakan cURL.
+    - dan lain sebagainya silakan pilih sesuka kalian.
 - Ambil bagian helper yang diinginkan.
-- Kemudian load pada `autload.php` atau kostum setiap pemanggilan controller yang dimaksud.
-- Beru bisa diguanakan
+- Kemudian load pada `autoload.php` atau atau load secara manual setiap pemanggilan controller yang dimaksud.
+- Baru bisa diguanakan
 
 ## Kontribusi
-- [Bagaimana cara berkontribusi Helper CodeIgniter?](blob/master/CONTRIBUTING.md)
+- [Bagaimana cara berkontribusi Helper CodeIgniter?](CONTRIBUTING.md)
