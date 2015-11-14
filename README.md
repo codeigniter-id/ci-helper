@@ -1,65 +1,19 @@
 Helper CodeIgniter Indonesia
 ==================
 
-## Daftar Helper
+Kumpulan helper pada CodeIgniter yang dibuat oleh para [kontributor](https://github.com/codeigniter-id/ci-helper/graphs/contributors) member CodeIgniter Indonesia secara sukarelawan untuk membagikannya dengan [lisensi MIT](#License). Cara berkontribusi silakan baca pada dokumentasi [CONTRIBUTING.md](#Contributing) dan cara menggunakannya silakan baca pada dokumentasi [INSTALL.md](#Install).
 
-#### domain_helper.php
-Fungsi get_domain :
-``` php
-get_domain($url)
-```
-- Parameters full URL: `$url`.
-- Returns: `domain`.
-- Return type: `string`.
-- Contoh :
-``` php
-<?php echo get_domain('http://github.com') ?>
-```
-Maka akan menghasilkan `github.com`.
+## List Helper
 
-#### uri_helper.php
-Fungsi setUri :
-``` php
-setUri($str)
-```
-- @param string $str
-- @return void
-- Contoh :
-``` php
-<?php echo setUri('Lorem ipsum dolor sit amet.') ?>
-```
-Maka akan menghasilkan `lorem-ipsum-dolor-sit-amet`.
-
-#### base64_helper.php
-Fungsi base64ToImage :
-``` php
-base64ToImage($str, $width, $height)
-```
-- @param string $str (mandatory)
-- @param int $width & $height (optional)
-- @return image in tag `<img/>`
-- Contoh :
-``` php
-<?php echo base64ToImage('iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHL.....') ?>
-```
-Maka akan menghasilkan `<img/>`.
+- [domain_helper](HELPER.md#domain_helper.php)
+- [uri_helper](HELPER.md#uri_helper.php)
+- [base64_helper](HELPER.md#base64_helper.php)
 
 ## Install
+- [INSTALL](INSTALL.md)
 
-- Download
-    - Bisa download via arsip zip, tarball.
-    - Bisa menggunakan git clone.
-    - Bisa menggunakan bower.
-    - Bisa menggunakan cURL.
-    - dan lain sebagainya silakan pilih sesuka kalian.
-- Ambil bagian helper yang diinginkan.
-- Kemudian load pada `autoload.php` atau atau load secara manual setiap pemanggilan controller yang dimaksud.
-- Baru bisa diguanakan
+## Contributing
+- [CONTRIBUTING](CONTRIBUTING.md)
 
-## Kontribusi
-
-- [Panduan berkontribusi di Helper CodeIgniter Indonesia](CONTRIBUTING.md)
-
-## Lisensi
-
-- [MIT Lisensi](LICENSE)
+## License
+[![MIT License](https://img.shields.io/dub/l/vibe-d.svg)](LICENSE)
