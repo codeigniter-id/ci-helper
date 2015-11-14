@@ -5,9 +5,9 @@ Kumpulan helper pada CodeIgniter yang dibuat oleh para [kontributor](https://git
 
 ## List Helper
 
-- [domain_helper](HELPER.md#domain_helper.php)
-- [uri_helper](HELPER.md#uri_helper.php)
-- [base64_helper](HELPER.md#base64_helper.php)
+- [domain_helper](HELPER.md#domain_helperphp)
+- [uri_helper](HELPER.md#uri_helperphp)
+- [base64_helper](HELPER.md#base64_helperphp)
 
 ## Install
 - [INSTALL](INSTALL.md)
