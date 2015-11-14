@@ -31,16 +31,16 @@ setUri($str)
 Maka akan menghasilkan `lorem-ipsum-dolor-sit-amet`.
 
 #### base64_helper.php
-Fungsi blobToImage :
+Fungsi base64ToImage :
 ``` php
-blobToImage($str, $width, $height)
+base64ToImage($str, $width, $height)
 ```
 - @param string $str (mandatory)
 - @param int $width & $height (optional)
 - @return image in tag `<img/>`
 - Contoh :
 ``` php
-<?php echo blobToImage('iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHL.....') ?>
+<?php echo base64ToImage('iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHL.....') ?>
 ```
 Maka akan menghasilkan `<img/>`.
 

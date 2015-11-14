@@ -7,8 +7,8 @@ if (!defined('BASEPATH'))
  * @license     MIT
  */
 
-if (!function_exists('blobToImage')) {
-    function blobToImage($blob = '', $width = '', $height = '')
+if (!function_exists('base64ToImage')) {
+    function base64ToImage($blob = '', $width = '', $height = '')
     {
         $style = "width=\"$width\" height=\"$height\"";
         if (!empty($blob))
