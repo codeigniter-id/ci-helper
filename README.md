@@ -12,7 +12,7 @@ get_domain($url)
 - Returns: `domain`.
 - Return type: `string`.
 - Contoh :
-``` php 
+``` php
 <?php echo get_domain('http://github.com') ?>
 ```
 Maka akan menghasilkan `github.com`.
@@ -25,10 +25,24 @@ setUri($str)
 - @param string $str
 - @return void
 - Contoh :
-``` php 
+``` php
 <?php echo setUri('Lorem ipsum dolor sit amet.') ?>
 ```
 Maka akan menghasilkan `lorem-ipsum-dolor-sit-amet`.
+
+#### base64_helper.php
+Fungsi base64ToImage :
+``` php
+base64ToImage($str, $width, $height)
+```
+- @param string $str (mandatory)
+- @param int $width & $height (optional)
+- @return image in tag `<img/>`
+- Contoh :
+``` php
+<?php echo base64ToImage('iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHL.....') ?>
+```
+Maka akan menghasilkan `<img/>`.
 
 ## Install
 
