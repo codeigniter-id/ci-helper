@@ -1,9 +1,9 @@
 INSTALL
 ==================
 
-- Download [![Download Helper CI ID](https://img.shields.io/github/downloads/codeigniter-id/ci-helper/latest/total.svg)]()
+- Download [![Download Helper CI ID](https://img.shields.io/github/downloads/codeigniter-id/ci-helper/latest/total.svg)](https://github.com/codeigniter-id/ci-helper/archive/master.zip)
     - Bisa download via arsip zip, tarball.
-    - Bisa menggunakan git clone.
+    - Bisa menggunakan git.
     - Bisa menggunakan bower.
     - Bisa menggunakan cURL.
     - dan lain sebagainya silakan pilih sesuka kalian.
