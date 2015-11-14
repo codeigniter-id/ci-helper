@@ -33,7 +33,7 @@ __Bagi Member__
 
 __Bagi Non Member__
 
-- Fork repository ini. [![GitHub forks](https://img.shields.io/github/forks/codeigniter-id/ci-helper.svg?style=social&label=Fork)]()
+- Fork repository ini. ![GitHub forks](https://img.shields.io/github/forks/codeigniter-id/ci-helper.svg?style=social&label=Fork)
 - Clone repository yang sudah kalian fork tersebut, caranya.
     ```
     git clone https://github.com/USERNAME/ci-helper
