@@ -1,7 +1,7 @@
 Helper CodeIgniter Indonesia
 ==================
 
-Kumpulan helper pada CodeIgniter yang dibuat oleh para [kontributor](https://github.com/codeigniter-id/ci-helper/graphs/contributors) member CodeIgniter Indonesia secara sukarelawan untuk membagikannya dengan [lisensi MIT](#License). Cara berkontribusi silakan baca pada dokumentasi [CONTRIBUTING.md](#Contributing) dan cara menggunakannya silakan baca pada dokumentasi [INSTALL.md](#Install).
+Kumpulan helper pada CodeIgniter yang dibuat oleh para [kontributor](https://github.com/codeigniter-id/ci-helper/graphs/contributors) member CodeIgniter Indonesia secara sukarelawan untuk membagikannya dengan [lisensi MIT](#license). Cara berkontribusi silakan baca pada dokumentasi [CONTRIBUTING.md](#contributing) dan cara menggunakannya silakan baca pada dokumentasi [INSTALL.md](#install).
 
 ## List Helper
 
