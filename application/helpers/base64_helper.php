@@ -8,13 +8,13 @@ if (!defined('BASEPATH'))
  */
 
 if (!function_exists('base64ToImage')) {
-    function base64ToImage($blob = '', $width = '', $height = '')
+    function base64ToImage($base64string = '', $width = '', $height = '')
     {
         $style = "width=\"$width\" height=\"$height\"";
-        if (!empty($blob))
-            $imageInfo = getimagesizefromstring(base64_decode($blob));
+        if (!empty($base64string))
+            $imageInfo = getimagesizefromstring(base64_decode($base64string));
             if (!empty($imageInfo))
-                $image = "data:{$imageInfo['mime']};base64,".$blob;
+                $image = "data:{$imageInfo['mime']};base64,".$base64string;
                 if ($width != '' || $height != '')
                     return "<img src=\"".$image."\" $style/>";
                 return "<img src=\"".$image."\" {$imageInfo[3]}/>";
